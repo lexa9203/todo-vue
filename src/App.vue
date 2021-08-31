@@ -7,10 +7,10 @@
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="text-h6">
-            Application
+            Todo
           </v-list-item-title>
           <v-list-item-subtitle>
-            subtext
+            Vue and vuetify
           </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
@@ -41,9 +41,8 @@
     <v-card class="overflow-hidden">
     <v-app-bar
       app
-      color="#fcb69f"
+      color="#93D3F2"
       dark
-      src="https://picsum.photos/1920/1080?random"
     >
       <template v-slot:img="{ props }">
         <v-img
@@ -54,9 +53,8 @@
 
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-app-bar-title>Title</v-app-bar-title>
-
-      <v-spacer></v-spacer>
+      <v-app-bar-title>To Do</v-app-bar-title>
+      
       
     </v-app-bar>
     
